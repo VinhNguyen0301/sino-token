@@ -9,6 +9,12 @@
   "author": "VinhNguyen",
   "license": "ISC",
   "devDependencies": {
-    "hardhat": "^2.22.4"
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/cli": "^2.8.2",
+    "hardhat": "^2.22.4",
+    "openzeppelin-solidity": "^3.4.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
   }
 }

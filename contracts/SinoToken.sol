@@ -4,7 +4,7 @@ import "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol";
 import "openzeppelin-solidity/contracts/access/Ownable.sol";
 import "openzeppelin-solidity/contracts/token/ERC20/ERC20Burnable.sol";
 import "hardhat/console.sol";
-contract Floppy is ERC20("Floppy", "FLP"), ERC20Burnable, Ownable {
+contract SinoToken is ERC20("SinoToken", "SMT"), ERC20Burnable, Ownable {
     uint256 private cap = 50_000_000_000 * 10 ** uint256(18);
     constructor() {
         console.log("owner: %s maxcap: %s", msg.sender, cap);

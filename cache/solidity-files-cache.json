@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/mar/Desktop/smart-contract/Sino-token/contracts/SinoToken.sol": {
-      "lastModificationDate": 1716023135734,
-      "contentHash": "ed91e1fed558dbc768bd658e69516242",
+      "lastModificationDate": 1716023411173,
+      "contentHash": "7abdd02d95bee4ab89baee262f73fd77",
       "sourceName": "contracts/SinoToken.sol",
       "solcConfig": {
         "version": "0.7.6",
@@ -38,7 +38,79 @@
         ">=0.6.0 <0.8.0"
       ],
       "artifacts": [
-        "Floppy"
+        "SinoToken"
+      ]
+    },
+    "/Users/mar/Desktop/smart-contract/Sino-token/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1716021186453,
+      "contentHash": "896f68942c3a20e9ae3c3c5bfd3add54",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/Users/mar/Desktop/smart-contract/Sino-token/node_modules/openzeppelin-solidity/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1716022471062,
+      "contentHash": "6748815a5b45c4aeeda56819f41190e0",
+      "sourceName": "openzeppelin-solidity/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.7.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.0 <0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
       ]
     },
     "/Users/mar/Desktop/smart-contract/Sino-token/node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20.sol": {
@@ -80,41 +152,6 @@
         "ERC20"
       ]
     },
-    "/Users/mar/Desktop/smart-contract/Sino-token/node_modules/hardhat/console.sol": {
-      "lastModificationDate": 1716021186453,
-      "contentHash": "896f68942c3a20e9ae3c3c5bfd3add54",
-      "sourceName": "hardhat/console.sol",
-      "solcConfig": {
-        "version": "0.7.6",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.4.22 <0.9.0"
-      ],
-      "artifacts": [
-        "console"
-      ]
-    },
     "/Users/mar/Desktop/smart-contract/Sino-token/node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20Burnable.sol": {
       "lastModificationDate": 1716022471054,
       "contentHash": "1603b7aab78c87467dde869fd19ec86b",
@@ -151,43 +188,6 @@
       ],
       "artifacts": [
         "ERC20Burnable"
-      ]
-    },
-    "/Users/mar/Desktop/smart-contract/Sino-token/node_modules/openzeppelin-solidity/contracts/access/Ownable.sol": {
-      "lastModificationDate": 1716022471062,
-      "contentHash": "6748815a5b45c4aeeda56819f41190e0",
-      "sourceName": "openzeppelin-solidity/contracts/access/Ownable.sol",
-      "solcConfig": {
-        "version": "0.7.6",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../utils/Context.sol"
-      ],
-      "versionPragmas": [
-        ">=0.6.0 <0.8.0"
-      ],
-      "artifacts": [
-        "Ownable"
       ]
     },
     "/Users/mar/Desktop/smart-contract/Sino-token/node_modules/openzeppelin-solidity/contracts/utils/Context.sol": {
